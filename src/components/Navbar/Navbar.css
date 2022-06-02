@@ -1,0 +1,38 @@
+.navbarContainer {
+    width: auto;
+    height: 70px;
+    background-color: dimgrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbarContent {
+    width: 80%;
+    height: 70px;
+    background-color: pink;
+    color: #4169E1;
+    display: flex;
+    align-items: center;
+}
+
+.navbarLogo {
+margin: 20px;
+}
+
+.navbarButton {
+    margin: 20px;
+    }
+
+.apartamenty {
+        font-size: 25px;
+        color: #4169E1;
+}
+
+.menu {
+    position: absolute;
+    float: left;
+    color: #4169E1;
+    }
+.wieza {
+}
