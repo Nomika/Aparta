@@ -1,5 +1,10 @@
 import React from 'react'
 import './Navbar.css'
+import wieza from '../../img/13.jpg'
+import dom from '../../img/9.jpg'
+import most from '../../img/1.jpg'
+import mewa from '../../img/4.jpg'
+import badyle from '../../img/6.jpg'
 
 
 
@@ -10,7 +15,7 @@ export const Navbar = () => {
     return (
         <>
         <div className= 'navbarContainer'>
-        
+     
         <div className= 'navbarContent'>
             <div className="navbarLogo">LOGO</div>
             <div className="navbarButton">Najlepsze nocelgi w Sopocie</div>
@@ -20,28 +25,22 @@ export const Navbar = () => {
 
        </div> 
        
-       <section>
       
-           <div>
-<p className= 'apartamenty'>Apartamenty w Sopocie</p></div>
 
-<div>
-<div className= 'menu'>
-<div>Hostel</div>
-            <div className="navbarButton">Apartament</div>
-            <div className="navbarButton">Hotel</div>
-            <div className="navbarButton">Pokój</div>
-</div>
-<div>
+       <div className="wieza"><img src={wieza} /></div>
 
-            <div className="wieza">zdjecie</div>
-            <div className="wieza">zdejcie</div>
-  
-</div>
-</div>
 
-       </section>
-    
+        <div><p className= 'apartamenty'>Apartamenty w Sopocie</p></div>
+
+      
+    <div className='pakiet1'>
+
+    <div className='pakiet'><img src={dom} /></div>
+    <div className='pakiet'><img src={most} /></div>
+    <div className='pakiet'><img src={mewa} /></div>
+    <div className='pakiet'><img src={badyle} /></div>
+
+    </div>
 
        </>
     )

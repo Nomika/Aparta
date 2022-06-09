@@ -27,12 +27,18 @@ margin: 20px;
 .apartamenty {
         font-size: 25px;
         color: #4169E1;
+      
 }
-
-.menu {
-    position: absolute;
-    float: left;
-    color: #4169E1;
-    }
+       
 .wieza {
+margin-top: 50px;
+
 }
+.pakiet{
+    float: left;
+    margin-left: 30px;
+}
+.pakiet1 {
+display: inline-block;
+margin-top: 50px;
+};
