@@ -3,6 +3,7 @@ import './Formularz.css'
 
 const Formularz = () => {
     return (
+        <div>
         <form className="formContainer">
          
             <input type="text" className='input'>ilość_osób</input>
@@ -11,6 +12,7 @@ const Formularz = () => {
             
         <button className="button">Sprawdź dostępność pokoi</button>
             </form>
+            </div>
     )
 }
 export default Formularz;
