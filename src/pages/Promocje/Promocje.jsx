@@ -1,16 +1,17 @@
 import React from 'react'
 import './Promocje.css'
-import Formularz from '../../components/Formularz/Formularz'
+import Form from '../../components/Form/Form'
 
 
 const Promocje = () => {
     return (
-<>
-        <div className='hr'> </div>
-         <div><Formularz /></div> 
-        <div>Tu są promocje</div>
+  
+<div className='hr'>
+
+     
+<Form />
         
-        </>
+     </div>
     )
 }
 
