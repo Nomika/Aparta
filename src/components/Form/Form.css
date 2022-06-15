@@ -1,3 +1,30 @@
 .formContainer {
 display: flex;
 }
+.input {
+display: block;
+margin: auto;
+margin-top: 15px;
+}
+.form {
+    margin-bottom: 50px;
+}
+.fromLeft {
+    animation-name: fromLeft;
+    animation-duration: 4s;
+    animation: 
+  }
+  @keyframes fromLeft {
+    0% { 
+      transform: translateX(-120px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .tekstForm {
+    color: #4169E1;
+  }

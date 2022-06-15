@@ -6,12 +6,12 @@ import Form from '../../components/Form/Form'
 const Promocje = () => {
     return (
   
-<div className='hr'>
+
 
      
 <Form />
         
-     </div>
+    
     )
 }
 

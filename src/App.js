@@ -24,8 +24,9 @@ function App() {
         <Route path="login" element={ <Zalogujsie />} />
       </Routes> 
 
-    
+     
     </div>
+   
 </>
 
   );

@@ -18,7 +18,7 @@ export const Navbar = () => {
      
         <div className= 'navbarContent'>
             <div className="navbarLogo">  <Link to="/">LOGO</Link></div>
-            <div className="navbarButton"><Link to="Promocje">Promocje noclegów w Sopocie</Link></div>
+            <div className="navbarButton"><Link to="promocje">Promocje noclegów w Sopocie</Link></div>
             <div className="navbarButton"><Link to="kontakt">Kontakt</Link></div>
             <div className="navbarButton"><Link to="login">Zaloguj się</Link></div>
         </div>
@@ -39,9 +39,10 @@ export const Navbar = () => {
     <div className='pakiet'><img src={most} /></div>
     <div className='pakiet'><img src={mewa} /></div>
     <div className='pakiet'><img src={badyle} /></div>
-
+    
     </div>
-
+    <div className='hr'></div>
+   
        </>
     )
 }
