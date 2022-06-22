@@ -1,14 +1,3 @@
-.formContainer {
-display: flex;
-}
-.input {
-display: block;
-margin: auto;
-margin-top: 15px;
-}
-.form {
-    margin-bottom: 30px;
-}
 .fromLeft {
     animation-name: fromLeft;
     animation-duration: 4s;
@@ -24,9 +13,7 @@ margin-top: 15px;
       opacity: 1;
     }
   }
-  .tekstForm {
+  .tekstForm1 {
     color: #4169E1;
-    margin-left: 20px;
   }
- 
   

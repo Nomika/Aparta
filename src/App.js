@@ -8,7 +8,7 @@ import Promocje from './pages/Promocje/Promocje';
 import Zalogowano from './pages/Zalogowano/Zalogowano';
 import Zalogujsie from './pages/Zalogujsie/Zalogujsie';
 import Comp from './components/Comp';
-import Apartamenty from './components/Apartamenty';
+import Apartamenty from './components/Apartamenty/Apartamenty';
 
 
 

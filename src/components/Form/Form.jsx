@@ -7,32 +7,17 @@
         <div>
  <form className='form fromLeft'>
 
- <input type='text' className="input"></input><a className='tekstForm'>Dzielnica w której chcesz się zatrzymać</a>
- <input type='text' className="input"></input><a className='tekstForm'>Ilość osób</a>
- <input type='datetime-local' className="input"></input><a className='tekstForm'>Data przyjazdu</a>
- <input type='datetime-local' className="input"></input><a className='tekstForm'> Data wyjazdu</a>
+ <input type='text' className="input t"></input><p className="tekstForm">Dzielnica w której chcesz się zatrzymać</p>
+ <input type='text' className="input "></input><p className='tekstForm'>Ilość osób</p>
+ <input type='datetime-local' className="input "></input><p className='tekstForm'>Data przyjazdu</p>
+ <input type='datetime-local' className="input "></input><p className='tekstForm'> Data wyjazdu</p>
 
- <button type='text' className="input tekstForm">Szukaj</button>
+ <button type='text' className="input">Sprawdź dostępność pokoi</button>
 
  </form>
          </div>
 
          </>
-         ///<section>
-//<nav class="container-fluid nav justify-content-center dwa fromLeft">
-//  <ul class="list-unstyled">
- 
-  
-//<input class="my-2"></input><a href="#" class="mx-2">Dzielnica w której chcesz się zatrzymać</a><br>
-//<input class="my-2"></input><a href="#" class="mx-2">ilość osób</a><br>
-//<input type="datetime-local" class="form-control" placeholder="Datetime-local input"><a href="#">data_przyjazdu</a></input>
-//<input type="datetime-local" class="form-control" placeholder="Datetime-local input"><a href="#">data_wyjazdu</a></input>
-//<br>
-//<button class="my-2"><a href="apartamenty.html">Sprawdź dostępność pokoi</a></button>
-
- // </ul>
- //</nav>
- //</section>
          
         
      )

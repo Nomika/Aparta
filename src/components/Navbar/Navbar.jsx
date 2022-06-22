@@ -21,6 +21,7 @@ export const Navbar = () => {
             <div className="navbarButton"><Link to="promocje">Promocje noclegów w Sopocie</Link></div>
             <div className="navbarButton"><Link to="kontakt">Kontakt</Link></div>
             <div className="navbarButton"><Link to="login">Zaloguj się</Link></div>
+            <div className="navbarButton"><Link to="panelKlienta">panelKlienta</Link></div>
         </div>
 
        </div> 
