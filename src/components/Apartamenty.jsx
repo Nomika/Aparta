@@ -16,25 +16,21 @@ export default Apartamenty;
 
 const apartamenty1 = {
     cena: '300',
-    kolor: 'Zolty',
+    kolor: 'Zielony',
+    metraz: {
+        balkon: '15m',
+        ogrod: '23m',
+    }
+}
+console.log(apartamenty1);
+
+const apartamenty2 = {
+    cena: '300',
+    kolor: 'Niebieski',
     metraz: {
         balkon: '10m',
         ogrod: '30m',
     }
 }
-console.log(apartamenty1.kolor);
+console.log(apartamenty2);
 
-const propsy = {
-    fruits: ['winogrona', 'ogórek'],
-    car: 'bmw',
-    bmw: {
-        kolor1: 'zielony',
-        kolor2: 'niebieski',
-    },
-    flowers: 'bratki'
-}
-console.log(propsy.fruits);
-console.log(propsy.car);
-console.log(propsy.flowers);
-console.log(propsy.bmw.kolor2);
-console.log(propsy.bmw.kolor1);

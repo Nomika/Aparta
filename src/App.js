@@ -20,7 +20,7 @@ function App() {
 
     <Comp fruits={['jablko', 'banan']} cars={'autko'} />
 
-    <Apartamenty Apartamenty={['zielony', 'żółty']} pokoje={'auto'} />
+   
 
       <Navbar />
     
