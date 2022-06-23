@@ -1,7 +1,7 @@
 import React from "react";
 import './PanelKlienta.css';
 
-const panelKlienta = () => {
+const PanelKlienta = () => {
         return (
         <>
        <div>
@@ -17,11 +17,12 @@ const panelKlienta = () => {
 
 </form>
 <hr></hr>
-       </div>
-        </>
 
-        
-       
-    )
+</div>
+</>
+        )
 }
-export default panelKlienta;
+
+export default PanelKlienta;
+
+
