@@ -8,7 +8,8 @@ import Promocje from './pages/Promocje/Promocje';
 import Zalogowano from './pages/Zalogowano/Zalogowano';
 import Zalogujsie from './pages/Zalogujsie/Zalogujsie';
 import Comp from './components/Comp';
-import Apartamenty from './components/Apartamenty/Apartamenty';
+import Apartamenty from './components/Apartamenty';
+
 
 
 
@@ -19,7 +20,7 @@ function App() {
 
     <Comp fruits={['jablko', 'banan']} cars={'autko'} />
 
-    <Apartamenty fruits={['jablko', 'banan']} cars={'autko'} />
+    <Apartamenty Apartamenty={['zielony', 'żółty']} pokoje={'auto'} />
 
       <Navbar />
     
